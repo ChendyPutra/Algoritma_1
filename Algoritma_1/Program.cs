@@ -38,3 +38,5 @@ namespace Bublbe_Sort
                 a[i] = Int32.Parse(s1);
             }
         }
+    }
+}
