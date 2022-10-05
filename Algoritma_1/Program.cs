@@ -38,5 +38,19 @@ namespace Bublbe_Sort
                 a[i] = Int32.Parse(s1);
             }
         }
+        public void Display()
+        {
+            // Menampilkan array yang tersusun
+            Console.WriteLine("");
+            Console.WriteLine("----------------------------------");
+            Console.WriteLine(" Elemen Array Yang Telah Tersusun ");
+            Console.WriteLine("----------------------------------");
+            for (int j = 0; j < n; j++)
+            {
+                Console.WriteLine(a[j]);
+            }
+            Console.WriteLine("");
+        }
+
     }
 }
